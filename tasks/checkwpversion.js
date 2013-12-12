@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 		
 		var options = this.options({
 			plugin: pkg.name+".php",
-			readme: false,
+			readme: "readme.txt",
 		});
 		
 		var check = this.data;
