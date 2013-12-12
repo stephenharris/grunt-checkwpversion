@@ -1,7 +1,7 @@
 {
 	"name": "grunt-checkwpversion",
 	"description": "Check the versions of your WordPress plug-in against the readme stable tag and/or your package.json.",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"homepage": "https://github.com/stephenharris/grunt-checkwpversion",
 	"author": {
 		"name": "Stephen Harris",
