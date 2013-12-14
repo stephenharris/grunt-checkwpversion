@@ -124,6 +124,9 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+### 0.3.0
+Fixes bug in searching for version in plug-in header. Add error message to `grunt.fail.warn()`.
+
 ### 0.2.0
 Include target name in failure message. Set `readme` option to `readme.text` by default.
 
