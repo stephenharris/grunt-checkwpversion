@@ -82,7 +82,7 @@ module.exports = function(grunt) {
 		if( !result ){
 			
 			console.log("\n" + chalk.bgRed("CHECK FAILED!\n "+this.target+" "+version1+" "+check.compare+" "+version2+"") + "\n");
-			grunt.fail.warn();
+			grunt.fail.warn( "Checks failed" );
 			
 		}
 			
