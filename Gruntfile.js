@@ -18,9 +18,14 @@ module.exports = function(grunt) {
 				readme: 'tests/fixtures/readme.txt',
 				plugin: 'tests/fixtures/my-plugin.php',
 			},
-			check: {
+			plugin_equals_stable: {
 			    version1: 'plugin',
 			    version2: 'readme',
+				compare: '==',
+			},
+			plugin_equals_package: {
+			    version1: 'plugin',
+			    version2: '<%= pkg.version %>',
 				compare: '==',
 			},
 		}
