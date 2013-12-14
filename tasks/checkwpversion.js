@@ -252,7 +252,7 @@ var checkwpversion = {
 		
 		}else if( version === 'plugin' ){
 			var plugin = grunt.file.read( options.plugin );
-			matches = plugin.match( new RegExp("^Version:\\s*(\\S+)","im") );
+			matches = plugin.match( new RegExp("^[\* ]*Version:\\s*(\\S+)","im") );
 			if( matches.length <= 1 ){
 				grunt.fail.fatal( 'Could not find version in "' + options.readme + '"' );
 			}
